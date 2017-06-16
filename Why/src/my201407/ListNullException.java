@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListNullException {
 	
-	public String testNull(){
+	public void testNull(){
 		
 		List<String> list = new ArrayList<String>();
 		
@@ -14,14 +14,24 @@ public class ListNullException {
 		}
 		
 		String testOne = list.get(0);
-		
-		return "qqq";
-		
+		System.out.println(testOne);
 	}
 	
 	public static void main(String[] args) {
 		ListNullException lne = new ListNullException();
-		System.out.println(lne.testNull());
+//		lne.testNull();
+		lne.testClear();
 	}
 
+	private void testClear() {
+		List<String> list = new ArrayList<String>();
+		list.add("aaa");
+		list.add("bbb");
+		System.out.println(list.toString());
+		list.clear();
+		System.out.println(list);
+		list.add("ccc");
+		System.out.println(list);
+
+	}
 }

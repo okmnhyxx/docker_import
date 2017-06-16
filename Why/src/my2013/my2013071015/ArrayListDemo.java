@@ -163,7 +163,7 @@ public class ArrayListDemo {
 		}
 		System.out.println(" --num:" + num);
 		System.out.println(" --ilist.size():" +ilist.size());
-		arr = ilist.toArray(new Integer[ilist.size()]);//toArray(T[] t) :relay on the type of the parameter ,bulit a relavate type's
+		arr = ilist.toArray(new Integer[ilist.size()]);//toArray(Cloudtop[] t) :relay on the type of the parameter ,bulit a relavate type's
 		
 		System.out.println("arr:\t" + arr);
 		for (int i = 0; i < arr.length; i++) {

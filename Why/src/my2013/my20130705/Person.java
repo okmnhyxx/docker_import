@@ -9,7 +9,7 @@ public class Person {
 		System.out.println("super class common code segment,description before: " + description);
 	}*/
 	
-	private static String name;
+	private static String name = "aaa";
 	private int age = 10;
 	private String description = "description:super class Person";
 	
@@ -19,16 +19,19 @@ public class Person {
 	}
 	
 	static {
-		//System.out.println("----" +name);
+		System.out.println("super static ----" + name);
 		name = "name:super class static code segment";
 		System.out.println(name);
 	}
 
+	private static int bbb = 20;
+
 	public Person(int age, String description) {
+		System.out.println("super main class age: " + age);
 		this.age = age;
 		this.description = description;
-		System.out.println("super class age after: " + this.age);
-		System.out.println("super class description after: " + this.description);
+		System.out.println("super construct class age after: " + this.age);
+		System.out.println("super construct class description after: " + this.description);
 	}
 
 	public static void main(String[] args) {

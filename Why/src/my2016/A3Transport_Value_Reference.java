@@ -59,11 +59,11 @@ public class A3Transport_Value_Reference {
 //        a.alterListItem2(stringList2);
 //        System.out.println(" str list 1" + stringList2);
 //
-//        List<Student> studentList = a.generateStudentList(3);
+//        List<User> studentList = a.generateStudentList(3);
 //        a.alterStuItem1(studentList);
 //        System.out.println(new Gson().toJson(studentList));
 //
-//        List<Student> studentList2 = a.generateStudentList(3);
+//        List<User> studentList2 = a.generateStudentList(3);
 //        a.alterStuItem2(studentList2);
 //        System.out.println(new Gson().toJson(studentList2));
 

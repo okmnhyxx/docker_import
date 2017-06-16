@@ -1,6 +1,7 @@
 package my2015;
 
 import java.math.BigDecimal;
+import java.math.MathContext;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
@@ -53,6 +54,8 @@ public class B2DoubleFormat {
     	System.out.println(i + "/100.0 = " + d + ",----------------" + bd.compareTo(new BigDecimal(d)));
     	
     }
+
+
     
     
     public static void main(String[] args) {
@@ -63,9 +66,17 @@ public class B2DoubleFormat {
 //        b.m4();
 //    	b.doDoubleCal();
 //    	b.toDouble();
-    	for(int i = 777;i < 1200; i++) {
-    		b.int2double(i);
-    	}
-    	
+//    	for(int i = 777;i < 1200; i++) {
+//    		b.int2double(i);
+//    	}
+    	b.double2Int();
+    }
+
+    private void double2Int() {
+        double a = 12.7;
+        double b = Math.ceil(a);
+        int c = (int)a;
+        int d = new Double(a).intValue();
+        System.out.println(String.format("a:%f b:%f c:%d d:%d", a, b, c, d));
     }
 }

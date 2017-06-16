@@ -28,7 +28,7 @@ public class Son11 extends Father{
 
 		//…………………………………………………………………………………………………………………………(Father)new C7Son()   ==   Father jubing = new C7Son();
 		Boolean b1 = ((Father)new Son11()).type();/*………………从这里可以知道： */
-		/*…………………………………………………………………………………………………………………………该匿名句柄 是father类的，返回结果按father类的，但指向Son，返回结果实际是son的*/
+		/*……………………… …………………………………………………………………………………………………该匿名句柄 是father类的，返回结果按father类的，但指向Son，返回结果实际是son的*/
 		Boolean b2 = ((Father)son).type();//
 //		Boolean b3 = ((Son11)father).type();//ClassCastException
 		Boolean b4 = fs.type();

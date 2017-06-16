@@ -22,6 +22,7 @@ public class V151203_VirtualArea {
         System.out.println("s1 == s2: " + (s1 == s2));  //
         System.out.println("s1 == s3: " + (s1 == s3));  //
         System.out.println("s1 == s4: " + (s1 == s4));  //
+        System.out.println("s1 == s5: " + (s1 == s5));  //
         System.out.println("s1 == s9: " + (s1 == s9));  //
         System.out.println("s4 == s5: " + (s4 == s5));  //
         System.out.println("s1 == s6: " + (s1 == s6));  //
@@ -60,12 +61,17 @@ public class V151203_VirtualArea {
         String s1 = new String("myString");//使用关键字new
         String s2 = "myString";//直接定义
         String s3 = "my" + "String";//串联生成
+        System.out.println("s1 == s2: " + (s1 == s2));  //
+        System.out.println("s1 == s3: " + (s1 == s3));  //
+        System.out.println("s2 == s3: " + (s2 == s3));  //
+        System.out.println(s1.hashCode() + " - " + s2.hashCode() + " - " + s3.hashCode());
     }
 
     public static void main(String[] args) {
         V151203_VirtualArea c = new V151203_VirtualArea();
-        c.testStr();
-        c.testBoxBase();
+//        c.testStr();
+        c.testString();
+//        c.testBoxBase();
     }
 
 }

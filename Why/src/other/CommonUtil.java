@@ -8,6 +8,8 @@ import java.util.Random;
 
 public class CommonUtil {
 
+	public final static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
 	/**
 	 * 
 	 * @param orderBeginTime  当前时间点
@@ -78,8 +80,51 @@ public class CommonUtil {
 	}
 	
 	public static void main(String[] args) throws ParseException {
-		Date d = generateOrdrTimeOut(new Date(), 1, 60, false);
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		System.out.println(sdf.format(d));
+//		Date d = generateOrdrTimeOut(new Date(), 1, 60, false);
+//		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//		System.out.println(sdf.format(d));
+
+
+//		testHourAndHourOfYear(15);
+		testCalender();
+	}
+
+
+
+	public static void testHourAndHourOfYear(int hour) {
+		Calendar calendar = Calendar.getInstance();
+		int h = calendar.get(Calendar.HOUR);
+		int hd = calendar.get(Calendar.HOUR_OF_DAY);
+		System.out.println(h);
+		System.out.println(hd);
+
+
+		calendar = Calendar.getInstance();
+		System.out.println(sdf.format(calendar.getTime()));
+
+		calendar.set(Calendar.HOUR, hour);//todo: HOUR 12   HOUR_OF_DAY 24
+		System.out.println(sdf.format(calendar.getTime()));
+
+		calendar.set(Calendar.HOUR_OF_DAY, hour);//todo: HOUR 12   HOUR_OF_DAY 24
+		System.out.println(sdf.format(calendar.getTime()));
+
+	}
+
+	public static void testCalender() {
+
+		Calendar calendar = Calendar.getInstance();
+		System.out.println(sdf.format(calendar.getTime()));
+
+		calendar.add(Calendar.DATE, 1);
+		System.out.println(sdf.format(calendar.getTime()));
+
+		calendar = Calendar.getInstance();
+		calendar.add(Calendar.DAY_OF_MONTH, 1);
+		System.out.println(sdf.format(calendar.getTime()));
+
+		calendar = Calendar.getInstance();
+		calendar.add(Calendar.DAY_OF_WEEK, 1);
+		System.out.println(sdf.format(calendar.getTime()));
+
 	}
 }

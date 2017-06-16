@@ -7,19 +7,19 @@ package virtual2015;
 public class V151209_ConstantPool {
     private void test1() {
         String str1 = new StringBuffer("计算机").append("软件").toString();
-        System.out.println("(str1.intern() == str1): " + (str1.intern() == str1));//true
+        System.out.println("(str1.intern() == str1): " + (str1.intern() == str1));
     }
     private void test2() {
         String s = "java";
         String str2 = new StringBuffer("ja").append("va").toString();
-        System.out.println("(str2.intern() == str2): " + (str2.intern() == str2));//false
+        System.out.println("(str2.intern() == str2): " + (str2.intern() == str2));
     }
     private void test3() {
         String str1 = new StringBuffer("计算机").append("呵呵").toString();
         String str11 = str1.intern();
-        System.out.println("(str1.intern() == str1): " + (str11 == str1));//true
+        System.out.println("(str1.intern() == str1): " + (str11 == str1));
         String str12 = "计算机呵呵";
-        System.out.println("(str1.intern() == str12)" + (str11 == str12));//true
+        System.out.println("(str1.intern() == str12)" + (str11 == str12));
     }
 
     public static void main(String[] args) {

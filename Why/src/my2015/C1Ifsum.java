@@ -38,6 +38,15 @@ public class C1Ifsum {
 	public static void main(String[] args) {
 		C1Ifsum c = new C1Ifsum();
 		c.testBigDecimal();
+		c.testBigDecimal2();
+	}
+
+	private void testBigDecimal2() {
+		long a = 1000;
+		BigDecimal b = new BigDecimal(a/100.0).setScale(2, BigDecimal.ROUND_HALF_UP);
+		double d = b.doubleValue();
+		String s = b.toString();
+		System.out.println(d);
 	}
 
 }
