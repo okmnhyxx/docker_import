@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/lib/gson-2.2.4.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/my2013/my20130708/IfEquale.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/virtual2015/V151203_HeapOOM.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

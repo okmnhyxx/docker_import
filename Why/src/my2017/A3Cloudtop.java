@@ -14,16 +14,18 @@ public class A3Cloudtop {
         A3Cloudtop a = new A3Cloudtop();
         int b = a.get();
         System.out.println(b);
-        a.testAAA();
+//        a.testAAA();
     }
 
     public int get() {
         try{
+            int a = 10/0;
             return 1;
         } catch (RuntimeException e) {
             e.printStackTrace();
-        } finally {
             return 2;
+        } finally {
+            return 3;
         }
     }
 

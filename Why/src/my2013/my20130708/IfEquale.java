@@ -1,7 +1,7 @@
 package my2013.my20130708;
 import java.util.Scanner;
 
-public class IfEquale {//------------------------Ϊʲô-128  ~  127֮ǰ��true   
+public class IfEquale {//------------------------??�-128  ~  127????true   
 	
 	public void test(int before,int end) {
 		Integer a,b;
@@ -48,7 +48,7 @@ static {
 	cache[i] = new Integer(i - 128);
 }
 */
-//��object������   equale �� ==����ȵ�
+//??object??????   equale ?? ==??????
 /*	    public boolean equals(Object obj) {
 		return (this == obj);
 }*/
