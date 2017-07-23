@@ -50,7 +50,6 @@ public class DemoStr {
 		String c;
 		int contn = 1;
 		int bk = 0;
-		
 		while (contn == 1){
 			Scanner sc = new Scanner(System.in);
 			System.out.println("please input the original string");
