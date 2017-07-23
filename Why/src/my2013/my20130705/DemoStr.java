@@ -140,8 +140,8 @@ public class DemoStr {
 		DemoStr d = new DemoStr();
 //		d.strTest1();
 //		d.strTest2();
-		d.strTest3();
-//		d.strTest4();
+//		d.strTest3();
+		d.strTest4();
 //		d.strTest5();
 //		d.strTest6();
 	}
