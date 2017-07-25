@@ -70,8 +70,8 @@ public class V151203_VirtualArea {
     public static void main(String[] args) {
         V151203_VirtualArea c = new V151203_VirtualArea();
 //        c.testStr();
-        c.testString();
-//        c.testBoxBase();
+//        c.testString();
+        c.testBoxBase();
     }
 
 }
