@@ -18,8 +18,8 @@ public class B8Regex {
 		String regex = "^\\s*\\w+(?:\\.{0,1}[\\w-]+)*@[a-zA-Z0-9]+(?:[-.][a-zA-Z0-9]+)*\\.[a-zA-Z]+\\s*$";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(target);
-		boolean isPhone = matcher.matches();
-		System.out.println(isPhone);
+		boolean isMail = matcher.matches();
+		System.out.println(isMail);
 	}
 
 }

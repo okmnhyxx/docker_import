@@ -12,17 +12,36 @@ import java.net.URLEncoder;
 public class A5UrlEncoder {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
-        A5UrlEncoder a = new A5UrlEncoder();
 
-        String encodeStr = a.testEncode();
-        a.testDecode(encodeStr);
+        String encodeStr = A5UrlEncoder.testEncode();
+        A5UrlEncoder.testDecode(encodeStr);
 
-        String escapeStr = a.testEscape();
-        a.testUnEscape(escapeStr);
+        String escapeStr = A5UrlEncoder.testEscape();
+        A5UrlEncoder.testUnEscape(escapeStr);
+    }
+
+    public static String encode(String str) {
+        try {
+            str = URLEncoder.encode(str, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        System.out.println(str);
+        return str;
+    }
+
+    public static String decode(String str) {
+        try {
+            str = URLDecoder.decode(str,"UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        System.out.println(str);
+        return str;
     }
 
     //转义
-    private String testEscape() {
+    private static String testEscape() {
         String unescapeStr = "<name>king</name>";
         String escapeStr = StringEscapeUtils.escapeXml11(unescapeStr);
         System.out.println(escapeStr);
@@ -30,7 +49,7 @@ public class A5UrlEncoder {
     }
 
     //反转义
-    private String testUnEscape(String escapeStr) {
+    private static String testUnEscape(String escapeStr) {
         String unescapeStr = StringEscapeUtils.unescapeXml(escapeStr);
         System.out.println(unescapeStr);
         return unescapeStr;
@@ -38,19 +57,16 @@ public class A5UrlEncoder {
 
 
     //编码
-    private String testEncode() throws UnsupportedEncodingException {
+    private static String testEncode() throws UnsupportedEncodingException {
 
         String strTest = "?=abc?中%1&2<3,4>";
-        strTest = URLEncoder.encode(strTest, "UTF-8");
-        System.out.println(strTest);
-        return strTest;
+        return encode(strTest);
     }
 
     //解码
-    private String testDecode(String encodeStr) throws UnsupportedEncodingException {
-        String decodeStr = URLDecoder.decode(encodeStr,"UTF-8");
-        System.out.println(decodeStr);
-        return decodeStr;
+    private static String testDecode(String encodeStr) throws UnsupportedEncodingException {
+
+        return decode(encodeStr);
     }
 
 
