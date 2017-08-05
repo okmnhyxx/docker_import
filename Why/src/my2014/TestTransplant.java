@@ -12,7 +12,7 @@ public class TestTransplant {
 		int a = 3;
 		System.out.println("before:--------- " + a);
 		
-		a = tt.getResult(a);
+		tt.getResult(a);
 		
 		System.out.println("after:--------- " + a);
 	}

@@ -1,4 +1,4 @@
-package my2017;
+package other;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 

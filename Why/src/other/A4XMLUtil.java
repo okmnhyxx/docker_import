@@ -1,4 +1,4 @@
-package my2017;
+package other;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

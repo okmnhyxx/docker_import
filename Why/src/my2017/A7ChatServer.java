@@ -12,6 +12,8 @@ import java.util.List;
 
 /**
  * Created by emi on 2017/7/21.
+ * http://www.jiaxuanshipin.com/58484.html
+ * Java socket长连接代码实现
  */
 public class A7ChatServer {
 
@@ -38,7 +40,10 @@ public class A7ChatServer {
 
         try {
             while (started) {
+                //当客户端（ip:192.168.0.70）执行new Socket("192.168.0.117", port)时，
+                // 服务端（ip:192.168.0.117）接收到一个socket长连接,该socket为： Socket[addr=/192.168.0.70,port=48377,localport=8888]，server端socket的LocalAddress()为本机Ip117，InetAddress为70
                 Socket s = ss.accept();
+                System.out.println("localAddress: " + s.getLocalAddress() + "\tiNetAddress: " + s.getInetAddress());
                 Client c = new Client(s);
                 System.out.println("a client connected!");
                 new Thread(c).start();
@@ -74,7 +79,8 @@ public class A7ChatServer {
 
         public void send(String str) {
             try {
-                dos.writeUTF(str);
+                dos.writeUTF("来自server端的内容：" + str);
+                dos.flush();
             } catch (IOException e) {
                 clients.remove(this);
                 System.out.println("对方退出了！我从List里面去掉了！");
@@ -85,16 +91,18 @@ public class A7ChatServer {
             System.out.println("client开始run了");
             try {
                 while (bConnected) {
+                    System.out.println("while running ......");
                     String str = dis.readUTF();
                     System.out.println("------------来自本地服务器:" + str);
                     for (int i = 0; i < clients.size(); i++) {
                         Client c = clients.get(i);
-                        if (this == c) {
+//                        if (this == c) {
                             c.send(str);
-                        }
+//                        }
                     }
                 }
             } catch (EOFException e) {
+                e.printStackTrace();
                 System.out.println("Client closed!");
             } catch (IOException e) {
                 e.printStackTrace();
@@ -107,6 +115,8 @@ public class A7ChatServer {
                     if (s != null) {
                         s.close();
                     }
+                    clients.remove(this);
+                    System.out.println(Thread.getAllStackTraces());
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
@@ -115,3 +125,7 @@ public class A7ChatServer {
         }
     }
 }
+    /**
+     * client 和 server 大体流程：
+     * server先启动起来
+     */

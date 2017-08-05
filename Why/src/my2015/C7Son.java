@@ -11,6 +11,8 @@ import java.util.Map;
  */
 class Father {
 
+    int age = 30;
+
     public void param0(String s) {
         System.out.println(" 0: 父类范围一样");
     }
@@ -25,6 +27,8 @@ class Father {
 }
 
 public class C7Son extends Father{
+
+    int age = 5;
 
     public void param0(String s) {
         System.out.println(" 0: 子类范围一样");
@@ -73,6 +77,8 @@ public class C7Son extends Father{
 //        fs.param1(map2);//编译不通过
         fs.param2(map2);
 //        fs.param3();//调不到
+
+        System.out.println(fs.age);
     }
 }
 
