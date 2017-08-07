@@ -15,6 +15,8 @@ import java.net.UnknownHostException;
 
 /**
  * Created by emi on 2017/7/21.
+ * http://www.jiaxuanshipin.com/58484.html
+ * Java socket长连接代码实现
  */
 public class A7ChatClient1 extends Frame{
 
@@ -56,7 +58,7 @@ public class A7ChatClient1 extends Frame{
 
     public void connect(int port) {
         try {
-            s = new Socket("127.0.0.1", port);
+            s = new Socket("192.168.0.117", port);
             dos = new DataOutputStream(s.getOutputStream());
             dis = new DataInputStream(s.getInputStream());
             System.out.println("~~~~~~~~连接成功~~~~~~~~!");
@@ -87,7 +89,7 @@ public class A7ChatClient1 extends Frame{
             tfTxt.setText("");
 
             try {
-                dos.writeUTF(str);
+                dos.writeUTF("来自client端的内容：" + str);
                 dos.flush();
             } catch (IOException e1) {
                 e1.printStackTrace();
@@ -97,11 +99,12 @@ public class A7ChatClient1 extends Frame{
 
     }
 
-    private class RecvThread implements Runnable {
+    public class RecvThread implements Runnable {
 
         public void run() {
             try {
                 while (bConnected) {
+                    System.out.println("while running ......");
                     String str = dis.readUTF();
                     taContent.setText(taContent.getText() + str + '\n');
                 }

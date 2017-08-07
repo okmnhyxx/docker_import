@@ -15,6 +15,8 @@ import java.net.UnknownHostException;
 
 /**
  * Created by emi on 2017/7/21.
+ * http://www.jiaxuanshipin.com/58484.html
+ * Java socket长连接代码实现
  */
 public class A7ChatClient2 extends Frame{
 
@@ -56,7 +58,11 @@ public class A7ChatClient2 extends Frame{
 
     public void connect(int port) {
         try {
-            s = new Socket("127.0.0.1", port);
+            s = new Socket("192.168.0.117", port);
+
+            //localAddress: /192.168.0.70	iNetAddress: /192.168.0.117
+            System.out.println("localAddress: " + s.getLocalAddress() + "\tiNetAddress: " + s.getInetAddress());
+
             dos = new DataOutputStream(s.getOutputStream());
             dis = new DataInputStream(s.getInputStream());
             System.out.println("~~~~~~~~2连接成功~~~~~~~~!");
@@ -87,7 +93,7 @@ public class A7ChatClient2 extends Frame{
             tfTxt.setText("");
 
             try {
-                dos.writeUTF(str);
+                dos.writeUTF("来自client端的内容：" + str);//当client端的socket输出流输出的时候，server端的socket输入流获取到输入信息
                 dos.flush();
             } catch (IOException e1) {
                 e1.printStackTrace();
@@ -102,7 +108,8 @@ public class A7ChatClient2 extends Frame{
         public void run() {
             try {
                 while (bConnected) {
-                    String str = dis.readUTF();
+                    System.out.println("while running 2......");
+                    String str = dis.readUTF();//当server端的socket输出流输出时，本客户端执行这句（即监听到输入）
                     taContent.setText(taContent.getText() + str + '\n');
                 }
             } catch (SocketException e) {

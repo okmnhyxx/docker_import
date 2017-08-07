@@ -1,5 +1,7 @@
 package other;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
 
@@ -66,10 +68,19 @@ public class MD5Util {
             }  
         }  
         return new String(e);  
-    }  
+    }
+
+
+
+    public static String encrypt(String password, String mixStr) {
+        String md5Password = DigestUtils.md5Hex(password);
+        return DigestUtils.md5Hex(md5Password + mixStr);
+    }
     
 
 	public static void main(String[] args) {
-		System.out.print(MD5Util.string2MD5("111111"));
-	}
+		System.out.println(MD5Util.string2MD5("111111"));
+		System.out.println(MD5Util.encrypt("123456", "123456"));
+        System.out.println(System.currentTimeMillis());
+    }
 }

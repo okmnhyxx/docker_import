@@ -2,13 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1333bd-1e5a-492d-8946-ca4d7559663c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/my2017/A8Singleton.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/A8Singleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/musses/A8Externalizable.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/musses/A8Transient.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/musses/A9Serializable.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/A8Externalizable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/A8Transient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/A9Serializable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B1Sign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B2Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B2Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B2ServerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B2ServerNormal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my2017/B2Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/other/A5UrlEncoder.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Dir.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Egg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/GreedSnake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Snake$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Snake$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Snake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/SnakeModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Yard$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Yard$KeyMonitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Yard$PaintThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gameSnake/Yard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/A2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/A3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/B2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/B3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/NoStudent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/Test04FinalInit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130708/IfEquale.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/AnimalOverStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/DemoStr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/Mouse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/Sheep.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/Tiger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/TigerConstructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my20130709/staticTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/A1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/A2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/Abs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/ArrayInitial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/ArrayListDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/ArrayListDemo14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/B1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/Base.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/Father.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/LinkedListDemo12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/Son11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/TestExcep12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/TestExcept0808.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/TestException2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071015/TestNum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/ChinChrCmp17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/DateDemo17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/FileDemo18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/HashMapDemo16$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/HashMapDemo16$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013071620/HashMapDemo16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/MyThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/Son1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/TestJiCheng0808.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/TestRet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/ThreadRunnable0807.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/ThreadThread0808.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/ThreadTicketR0808.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2013/my2013080510/ThreadTicketT0808.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my201407/ListNullException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my201407/TestTransplant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B1LongNull.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B2DoubleFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B3NullNew.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B4ListRemoveTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B5SubString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B6Device.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B7base64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B8Regex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/B9Date.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C1Ifsum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C2Wrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C3ExceptionMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C4ListRemove.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C5IfElse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C6LinkMap$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C6LinkMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C7Son.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/C8OverLoadOrWrite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2015/Father.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A1LSP_FatherSon$Father.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A1LSP_FatherSon$Son.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A1LSP_FatherSon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A2SwitchCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A3Transport_Value_Reference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A4Null$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A4Null.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A5SelfAdd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A6Sdf.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A7NextIntCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A8ArrayStr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/A9Jdk8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B1RunTime$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B1RunTime$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B1RunTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B2TestRunTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B3StringAndBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B4ArrJCB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B5SetJCB$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B5SetJCB$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B5SetJCB$TestBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/B5SetJCB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2016/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A1MapKeyBoxed$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A1MapKeyBoxed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A2HashSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A3Cloudtop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A4XMLUtil$User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A4XMLUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A5UrlEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A6SubStr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient1$RecvThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient1$TFListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient2$RecvThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient2$TFListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatServer$Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/my2017/A8Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/other/CommonUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/other/MD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/other/ShortUrlTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/other/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/think/A1CircleRectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151203_HeapOOM$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151203_HeapOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151203_VirtualArea.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151207_JavaVMStackSOF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151207_ReferenceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151209_ConstantPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151209_JavaVMStackOOM$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151209_JavaVMStackOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151210_FinalizeEscapeGC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151211_OOMObject$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151211_OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151214_BusyThread$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151214_BusyThread$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/V151214_BusyThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/VeryBig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/virtual2015/VeryBigWeakReference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my20130705/A.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my20130705/A2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my20130705/A3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my20130705/DemoStr.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my20130709/staticTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my2013071015/Abs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my2013071620/ChinChrCmp17.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my2013080510/TestJiCheng0808.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2013/my2013080510/TestRet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/my2017/A5UrlEncoder.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/my201407/ListNullException.java" afterPath="$PROJECT_DIR$/src/my2014/ListNullException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/my201407/TestTransplant.java" afterPath="$PROJECT_DIR$/src/my2014/TestTransplant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/my2017/A4XMLUtil.java" afterPath="$PROJECT_DIR$/src/other/A4XMLUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/my2013/my20130705/DemoStr.class" afterPath="$PROJECT_DIR$/bin/my2013/my20130705/DemoStr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient1.class" afterPath="$PROJECT_DIR$/bin/my2017/A7ChatClient1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatClient2.class" afterPath="$PROJECT_DIR$/bin/my2017/A7ChatClient2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/my2017/A7ChatServer.class" afterPath="$PROJECT_DIR$/bin/my2017/A7ChatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Why.iml" afterPath="$PROJECT_DIR$/Why.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2013/my20130705/Test04FinalInit.java" afterPath="$PROJECT_DIR$/src/my2013/my20130705/Test04FinalInit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2013/my20130709/DemoStr.java" afterPath="$PROJECT_DIR$/src/my2013/my20130709/DemoStr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2015/B8Regex.java" afterPath="$PROJECT_DIR$/src/my2015/B8Regex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2015/C7Son.java" afterPath="$PROJECT_DIR$/src/my2015/C7Son.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2017/A1MapKeyBoxed.java" afterPath="$PROJECT_DIR$/src/my2017/A1MapKeyBoxed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2017/A7ChatClient1.java" afterPath="$PROJECT_DIR$/src/my2017/A7ChatClient1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2017/A7ChatClient2.java" afterPath="$PROJECT_DIR$/src/my2017/A7ChatClient2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my2017/A7ChatServer.java" afterPath="$PROJECT_DIR$/src/my2017/A7ChatServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/other/MD5Util.java" afterPath="$PROJECT_DIR$/src/other/MD5Util.java" />
     </list>
     <ignored path="Why.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,21 +212,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A4XMLUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my2017/A4XMLUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="A8Singleton.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/my2017/A8Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,7 +237,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#26827#0" expanded="false" />
+                <element signature="e#6745#6746#0" expanded="false" />
+                <element signature="e#6781#6782#0" expanded="false" />
+                <element signature="e#11062#11063#0" expanded="false" />
+                <element signature="e#11145#11146#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,10 +251,10 @@
       <file leaf-file-name="A7ChatServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/my2017/A7ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="1080">
+              <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
               <folding>
-                <element signature="e#442#450#0" expanded="true" />
+                <marker date="1502121338000" expanded="true" signature="276:314" ph="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -93,9 +263,13 @@
       <file leaf-file-name="A7ChatClient2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/my2017/A7ChatClient2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <marker date="1502121338000" expanded="true" signature="399:437" ph="/**...*/" />
+                <marker date="1502121338000" expanded="true" signature="3059:3427" ph="{...}" />
+                <marker date="1502121338000" expanded="true" signature="3059:3434" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +279,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,20 +407,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Why" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Why" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,6 +632,44 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -496,6 +696,25 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
       <method />
     </configuration>
     <list size="1">
@@ -613,7 +832,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -624,12 +842,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18298556" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10675241" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4430665" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49758744" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63697857" sideWeight="0.49758744" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.49758744" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49758744" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18131869" sideWeight="0.49574468" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18131869" sideWeight="0.49574468" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18070818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -812,7 +1030,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/my2017/A1MapKeyBoxed.java</url>
-          <line>21</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -1098,7 +1316,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,18 +1351,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/my2013/my20130705/DemoStr.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/my2017/A7ChatClient2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <marker date="1502121338000" expanded="true" signature="399:437" ph="/**...*/" />
+            <marker date="1502121338000" expanded="true" signature="3059:3427" ph="{...}" />
+            <marker date="1502121338000" expanded="true" signature="3059:3434" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,10 +1380,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/my2017/A7ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="1080">
+          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
           <folding>
-            <element signature="e#442#450#0" expanded="true" />
+            <marker date="1502121338000" expanded="true" signature="276:314" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1175,7 +1392,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#26827#0" expanded="false" />
+            <element signature="e#6745#6746#0" expanded="false" />
+            <element signature="e#6781#6782#0" expanded="false" />
+            <element signature="e#11062#11063#0" expanded="false" />
+            <element signature="e#11145#11146#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,7 +1413,15 @@
     <entry file="file://$PROJECT_DIR$/src/my2017/A8Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/my2013/my20130705/DemoStr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>

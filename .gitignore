@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Operating System Files
 
 *.DS_Store
@@ -31,3 +32,26 @@ dependency-reduced-pom.xml
 *.class
 
 README.html
+=======
+#idea project file
+*.iml
+
+#idea project cache directory
+.idea/
+
+#maven target directory
+target/
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 412c2df1f91b801ef3ebd62452e9ea3bfbfcf986

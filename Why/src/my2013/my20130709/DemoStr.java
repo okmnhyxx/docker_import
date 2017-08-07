@@ -127,6 +127,55 @@ public class DemoStr {
 		System.out.println(t2);
 		
 	}
+
+
+	public void strTest7(){
+
+		String a="xyz";
+		String b="xyz";
+		System.out.println(a==b);
+		System.out.println("2 \t" + a==b);//because of the precedence of operator
+		System.out.println("3 \t" + (a==b));
+		System.out.println("4 \t" + a.equals(b));
+
+		System.out.println("\n================================================\n");
+
+		String s=new String("abc");
+		String m=new String("abc");
+		System.out.println(s==m);
+		System.out.println("2 \t" + s==m);//because of the precedence of operator
+		System.out.println("3 \t" + (s==m));
+		System.out.println("4 \t" + s.equals(m));
+
+	}
+
+	public void strTest8(){//stringBuffer
+
+		//StringBuffer to String
+		StringBuffer sb = new StringBuffer();
+		sb.append("one");
+		sb.append("two");
+		String str = sb.toString();
+		System.out.println("  StringBuffer to String test:\t" +str);
+
+
+		//String to StringBuffer
+		String app = "apple";
+		String ban = "banane";
+		StringBuffer sbf =  new StringBuffer();
+		sbf.append(app).append(ban);
+		System.out.println("  String to StringBuffer test:\t" + sbf);
+
+	}
+
+	public void strTest9(){
+		String dou = "0";
+		String doub = null;
+		System.out.println("\tstring:"+dou);
+		System.out.println("\tstring:"+doub);
+		System.out.println(Double.parseDouble(dou));
+//		System.out.println(Double.parseDouble(doub));
+	}
 	
 	public static void main(String[] args) throws IOException {
 		DemoStr d = new DemoStr();
@@ -136,6 +185,9 @@ public class DemoStr {
 		d.strTest4();
 //		d.strTest5();
 //		d.strTest6();
+//		d.strTest7();
+//		d.strTest8();
+//		d.strTest9();
 	}
 
 
